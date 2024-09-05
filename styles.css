@@ -1,0 +1,85 @@
+body#page-top {
+    background-image: url("header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f3ee;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+td {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    border: 5px solid blue;
+    background-color: #00A9AC;
+    color: blue;
+    transition: background-color 0.3s ease;
+    font-family: 'Press Start 2P', cursive;
+}
+
+td:hover {
+    background-color: skyblue;
+    font-family: 'Press Start 2P', cursive;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#message-container {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #00A9AC;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.restart-button {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #00A9AC; 
+  color: blue;
+  border: 2px solid blue;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px; 
+  text-align: center;
+}
+
+.restart-button:hover {
+  background-color: skyblue;
+}
+
+.right-aligned-footer {
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%; 
+}
