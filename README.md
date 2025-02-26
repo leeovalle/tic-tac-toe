@@ -23,7 +23,7 @@ This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript wi
    cd tic-tac-toe
    ```
 
-3. Open [index.html](http://_vscodecontentref_/1) in your web browser to start the game.
+3. Open with live server in VSCode.
 
 ## Video Walkthrough
 
@@ -50,6 +50,7 @@ GIF created with ...
 - **Tie Detection**: The game detects when all squares are filled and declares a tie if no player has won.
 - **Restart Button**: A "Restart Game" button allows players to start a new game without refreshing the page.
 - **Stylish UI**: The game features a visually appealing user interface with custom fonts and colors.
+- **Bootstrap Integration**: The game uses Bootstrap for responsive design and styling.
 
 ## Game Rules
 
